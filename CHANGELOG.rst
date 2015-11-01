@@ -26,6 +26,9 @@ v0.2.8
 - Add ``debops.dhparam`` role, included in the ``common.yml`` playbook by
   default. [drybjed]
 
+- Removed ``debops.sshkeys`` role from ``common.yml`` as it is included in
+  ``debops.sshd`` as role dependency. [ypid]
+
 v0.2.7
 ------
 

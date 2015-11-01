@@ -53,9 +53,6 @@
     - role: debops.users
       tags: [ 'users', 'role::users' ]
 
-    - role: debops.sshkeys
-      tags: [ 'sshkeys', 'role::sshkeys' ]
-
     - role: debops.sshd
       tags: [ 'sshd', 'role::sshd' ]
 
