@@ -61,6 +61,12 @@ LXC_ OpenVZ_ KVM_
 Safekeep_ BoxBackup_ encFS_ SKS_ Monkeysphere_
 ========= ========== ====== ==== =============
 
+**Security**
+
++-------------+
+| cryptsetup_ |
++-------------+
+
 Overview of how playbooks work within DebOps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -138,3 +144,5 @@ If you want to keep tabs on each role's status then check out our
 .. _encFS: https://github.com/debops/ansible-encfs
 .. _SKS: https://github.com/debops/ansible-sks
 .. _Monkeysphere: https://github.com/debops/ansible-monkeysphere
+
+.. _cryptsetup: https://github.com/debops-contrib/ansible-cryptsetup
